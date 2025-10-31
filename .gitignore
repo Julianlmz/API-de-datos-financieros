@@ -1,0 +1,2 @@
+echo ".venv/" 
+echo "__pycache__/" 

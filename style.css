@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 2rem 3rem;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Estilos de la caja del conversor */
+.conversor-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-group label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para los menús desplegables y botones */
+select, button {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el área de resultado */
+#resultado {
+    background-color: #eef7ff;
+    border: 1px solid #cce4ff;
+    border-radius: 6px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#resultado p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Estilo para mostrar el resultado final */
+#resultado .tasa-final {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #0056b3;
+}

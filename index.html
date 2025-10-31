@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Consumo de API - Finanzas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Conversor de Divisas</h1>
+        <p>Selecciona las monedas para consultar la tasa de cambio.</p>
+
+        <div class="conversor-box">
+            <div class="input-group">
+                <label for="moneda-base">De:</label>
+                <select id="moneda-base">
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="COP">Peso Colombiano (COP)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="moneda-destino">A:</label>
+                <select id="moneda-destino">
+                    <option value="COP">Peso Colombiano (COP)</option>
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                </select>
+            </div>
+
+            <button id="btn-consultar">Consultar Tasa</button>
+        </div>
+
+        <div id="resultado">
+            <p>Por favor, selecciona las monedas y presiona "Consultar".</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
